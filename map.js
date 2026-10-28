@@ -69,9 +69,6 @@ $.when($.getJSON(gisUrl(29)), $.getJSON(gisUrl(37)))
     elkLayer.addData(elkData);
     deerLayer.addData(deerData);
 
-    document.getElementById('status').textContent =
-        'Elk and mule deer winter concentration areas loaded.';
-
     var overlapArea = 0;
     var overlapCount = 0;
 
